@@ -7,6 +7,8 @@ from django.conf.urls import patterns, include, url
 urlpatterns = patterns('',
     # Examples:
      url(r'^$', 'main_site.views.index', name='home'),
+     url(r'^panel/', 'panel.views.index', name='home'),
+     url(r'^paneledit/', 'panel.views.indexdelete', name='home'),
     # url(r'^ecommerce/', include('ecommerce.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

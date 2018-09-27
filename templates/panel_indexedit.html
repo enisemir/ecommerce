@@ -40,7 +40,7 @@
                                     <div class="form-group row">
                                         <div class="col-12">
                                             <div class="form-material floating">
-                                                <input type="text" class="form-control" id="slogan" name="slogan" placeholder="">
+                                                <input type="text" class="form-control" id="slogan" name="slogan" value="{{ duzenlenecekveri.slogan }}">
                                                 <label for="slogan">SLOGAN</label>
                                             </div>
                                         </div>
@@ -48,7 +48,7 @@
                                     <div class="form-group row">
                                         <div class="col-12">
                                             <div class="form-material floating">
-                                                <input type="text" class="form-control" id="icerik" name="icerik" placeholder="">
+                                                <input type="text" class="form-control" id="icerik" name="icerik" value="{{ duzenlenecekveri.icerik }}">
                                                 <label for="icerik">İCERİK</label>
                                             </div>
                                         </div>
@@ -63,7 +63,7 @@
                                     </div>
                                        <div class="form-group">
                                         <button type="submit" class="btn btn-sm btn-hero btn-alt-success">
-                                            <i class="fa fa-plus mr-10"></i> EKLE
+                                            <i class="fa fa-plus mr-10"></i> DÜZENLE
                                         </button>
                                     </div>
                                     {% csrf_token %}
