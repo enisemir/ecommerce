@@ -36,7 +36,7 @@ nav > ul > li a:hover {
 //header Style1
 select:focus::-ms-value {background: transparent !important;color: #333333 !important;}
 .header-top {
-  background: rgba(0, 0, 0, 0) url('../../assets/images/bg-header-top.jpg') no-repeat scroll center top ;
+  background: rgba(0, 0, 0, 0) url('../../static/images/bg-header-top.jpg') no-repeat scroll center top ;
   padding: 15px 0 10px;
   color: #fff;
   h5 {
@@ -229,7 +229,7 @@ h1.logo {
     line-height: 32px;
   }
   select {
-    background: rgba(0, 0, 0, 0) url('../../assets/images/select.png') no-repeat scroll 89% 50%;
+    background: rgba(0, 0, 0, 0) url('../../static/images/select.png') no-repeat scroll 89% 50%;
     padding: 0 60px 0 20px;
     margin-top: 2px;
     border-right: 1px solid #ddd;
@@ -471,7 +471,7 @@ nav > ul > li.item-home .show-submenu {
     font-size: 29px;
   }
   .form-search-header select {
-    background: rgba(0, 0, 0, 0) url("../../assets/images/select.png") no-repeat scroll 85% center;
+    background: rgba(0, 0, 0, 0) url("../../static/images/select.png") no-repeat scroll 85% center;
   }
 }
 .header-style2{
@@ -522,7 +522,7 @@ nav > ul > li.item-home .show-submenu {
     margin-right: 0;
   }
   .form-search-header select {
-    background: rgba(0, 0, 0, 0) url("../../assets/images/select.png") no-repeat scroll 85% center;
+    background: rgba(0, 0, 0, 0) url("../../static/images/select.png") no-repeat scroll 85% center;
   }
 }
 //menu sticky
@@ -569,7 +569,7 @@ nav > ul > li.item-home .show-submenu {
     }
   }
   .header-top {
-    background: transparent url("../../assets/images/bg-header-top-h3.jpg") repeat scroll center center / cover ;
+    background: transparent url("../../static/images/bg-header-top-h3.jpg") repeat scroll center center / cover ;
     padding: 10px 0 30px;
     h5 {
       color: #333;
@@ -634,7 +634,7 @@ nav > ul > li.item-home .show-submenu {
       padding: 0 25px 0 0;
       color: #333333;
       max-width: 150px;
-      background: rgba(0, 0, 0, 0) url("../../assets/images/select2.png") no-repeat scroll 85% 20px;
+      background: rgba(0, 0, 0, 0) url("../../static/images/select2.png") no-repeat scroll 85% 20px;
     }
     &:before {
       position: absolute;
@@ -973,14 +973,14 @@ nav > ul > li.item-home .show-submenu {
     height: 44px;
   }
   .form-search-header select {
-    background: rgba(0, 0, 0, 0) url("../../assets/images/select3.png") no-repeat scroll 89% 50%;
+    background: rgba(0, 0, 0, 0) url("../../static/images/select3.png") no-repeat scroll 89% 50%;
     border-left: 1px solid #ddd;
     padding: 0 40px 0 15px;
     border-right: none;
     border-radius: 0;
     margin-top: 5px;
     line-height: 33px;
-    color: #333;
+    color: #333;s
     height: 33px;
   }
   .form-search-header .button-search {
@@ -1229,7 +1229,7 @@ nav > ul > li.item-home .show-submenu {
     height: 39px;
   }
   .form-search-header select {
-    background: rgba(0, 0, 0, 0) url("../../assets/images/select3.png") no-repeat scroll 89% 50%;
+    background: rgba(0, 0, 0, 0) url("../../static/images/select3.png") no-repeat scroll 89% 50%;
     border-left: 1px solid #ddd;
     padding: 0 40px 0 15px;
     border-right: none;
@@ -1547,7 +1547,7 @@ nav > ul > li.item-home .show-submenu {
     height: 39px;
   }
   .form-search-header select {
-    background: rgba(0, 0, 0, 0) url("../../assets/images/select3.png") no-repeat scroll 89% 50%;
+    background: rgba(0, 0, 0, 0) url("../../static/images/select3.png") no-repeat scroll 89% 50%;
     border-left: 1px solid #dddddd;
     border-radius: 0;
     border-right: medium none;
