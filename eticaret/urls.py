@@ -6,10 +6,8 @@ from django.conf.urls import patterns, include, url
 
 urlpatterns = patterns('',
     # Examples:
-     url(r'^$', 'main_site.views.index', name='home'),
-     url(r'^panel/', 'panel.views.index', name='home'),
-     url(r'^paneledit/', 'panel.views.indexdelete', name='home'),
-    # url(r'^ecommerce/', include('ecommerce.foo.urls')),
+    # url(r'^$', 'eticaret.views.home', name='home'),
+    # url(r'^eticaret/', include('eticaret.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
